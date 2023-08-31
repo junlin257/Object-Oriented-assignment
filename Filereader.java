@@ -94,6 +94,12 @@ for (TrainScheduleReader.TrainSchedule schedule : trainSchedules) {
  
  }
 
+ List<String> stationNamesA=  TrainScheduleReader.readStations("/Users/litjay/Downloads/StationTumpat->Gemas.txt");
+            List<TrainScheduleReader.TrainSchedule> trainSchedulesA = TrainScheduleReader.readTrainSchedules("/Users/litjay/Downloads/Tumpat->Gemas.txt");
+            List<String> stationNamesB = TrainScheduleReader.readStations("/Users/litjay/Downloads/StationGemas-Tumpat.txt");
+            List<TrainScheduleReader.TrainSchedule> trainSchedulesB = TrainScheduleReader.readTrainSchedules("/Users/litjay/Downloads/Gemas->Tumpat.txt");
+
+
 
 
 
