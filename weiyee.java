@@ -402,3 +402,25 @@ public class Main2 {
 
 }
 
+//TrainFare
+
+public class TrainFare {
+	
+	private int stations;
+	private double price;
+	
+	public int getStations() {
+		return stations;
+	}
+	
+	public TrainFare(int stations) {
+		this.stations = stations;
+	}
+	
+	public double computeFare() {
+		price = stations * 1.50;
+		return price;
+	}
+	
+}
+
